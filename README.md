@@ -13,7 +13,7 @@
 
 <pre>$(".skewerRoute").skewerRoute();</pre>
 
-<p>Com o <code>skewerRoute</code> você configura o mapa de uma maneira bem simples, como no exemplo:</p>
+<p>Veja como é fácil configurar o mapa com o <code>skewerRoute</code>.</p>
 
 <pre>
 $(".skewerRoute").skewerRoute({
