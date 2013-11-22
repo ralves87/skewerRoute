@@ -91,3 +91,19 @@ $(".skewerRoute").skewerRoute({
 </pre>
 
 <img src="http://s12.postimg.org/4xjyst6jx/newroute.jpg">
+
+<h2>Licença</h2>
+
+<p>Copyright (C) 2013 by <a href="https://github.com/ralves87">Rafael Alves</a></p>
+
+<p>A permissão é concedida , a título gratuito , a qualquer pessoa que obtenha uma cópia deste software e dos arquivos de documentação associados (o "Software") , para lidar com o Software sem restrição , incluindo, sem limitação, os direitos de usar, copiar, modificar, mesclar , publicar, distribuir , sublicenciar e / ou vender cópias do Software, e permitir que as pessoas a quem o Software é fornecido a fazê-lo , observadas as seguintes condições:</p>
+
+<p>O aviso de copyright acima e este aviso de permissão devem ser incluídos em todas as cópias ou partes substanciais do Software.</p>
+
+<p>O SOFTWARE É FORNECIDO "COMO ESTÁ" , SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU IMPLÍCITA, INCLUINDO , SEM LIMITAÇÃO, AS GARANTIAS DE COMERCIALIZAÇÃO, ADEQUAÇÃO A UM DETERMINADO FIM E NÃO VIOLAÇÃO. EM NENHUM CASO OS AUTORES OU DETENTORES DE DIREITOS AUTORAIS SERÁ RESPONSÁVEL POR QUALQUER RECLAMAÇÃO, DANOS OU OUTRA RESPONSABILIDADE, SEJA EM UMA AÇÃO DE CUMPRIMENTO DE CONTRATO OU DE OUTRA FORMA, DECORRENTES DE OU EM RELAÇÃO AO SOFTWARE OU O USO OU OUTRAS FUNÇÕES DO SOFTWARE.</p>
+
+<h2>Agradecimentos</h2>
+<ul>
+<li>Ramon Sanches</li>
+<li><a href="https://github.com/DorianOliveira">Dorian Torres</a></li>
+</ul>
