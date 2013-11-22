@@ -6,7 +6,8 @@
     <title>SkewerROUTE by ralves87</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/skewerRoute.js"></script>
     <script src="javascripts/respond.js"></script>
     <!--[if lt IE 9]>
       <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -44,6 +45,38 @@
 </li>
 <li>Versão atual: 1.0</li>
 </ul><p>Necessita do jQuery 1.9+</p>
+
+<h2>
+<a name="como-usar" class="anchor" href="#como-usar"><span class="octicon octicon-link"></span></a>Demo</h2>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $(".myMap").skewerRoute({
+            controls:{
+                navigate: false,
+                zoom: false,
+                type: false,
+                scale: false,
+                streetview: false,
+                overview: false,
+                scrollwheel: false
+            },
+            theme: "Commander",
+            route: "Sumare, SP",
+            marker: {
+                pointA: "./path/pointA.png",
+                pointB: "./path/pointB.png",
+                pointC: "./path/pointC.png"
+            },
+            newRoute:{
+                active: true,
+                showTime: 1000
+            }
+        });
+    });
+</script>
+
+<div class="myMap" style="heigth:500px;"></div>
 
 <h2>
 <a name="como-usar" class="anchor" href="#como-usar"><span class="octicon octicon-link"></span></a>Como usar</h2>
