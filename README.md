@@ -29,7 +29,7 @@ $(".skewerRoute").skewerRoute({
 });
 </pre>
 
-<p>O nosso amigo <code>skewerRoute</code> possui alguns templates para você deixar o mapa mais atrente, veja o exemplo como é fácil alterar:</p>
+<p>O nosso amigo <code>skewerRoute</code> possui alguns temas para você deixar o mapa mais atrente, veja o exemplo abaixo:</p>
 
 <pre>
 $(".skewerRoute").skewerRoute({
