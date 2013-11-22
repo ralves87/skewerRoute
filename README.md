@@ -101,6 +101,6 @@ $(".skewerRoute").skewerRoute({
 
 <h2>Agradecimentos</h2>
 <ul>
-<li>Ramon Sanches</li>
+<li><a href="https://github.com/raymonsanches">Ramon Sanches</a></li>
 <li><a href="https://github.com/DorianOliveira">Dorian Torres</a></li>
 </ul>
