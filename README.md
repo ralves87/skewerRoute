@@ -16,7 +16,7 @@
 <p>Veja como é fácil configurar o mapa com o <code>skewerRoute</code>.</p>
 
 <pre>
-$(<span class="s1">".skewerRoute"</span>).skewerRoute({
+$(".skewerRoute").skewerRoute({
 	controls:{
 		navigate: false, 	//Habilita o controle de navegação do mapa.
 		zoom: false,		//Habilita o zoom.
@@ -28,3 +28,5 @@ $(<span class="s1">".skewerRoute"</span>).skewerRoute({
 	}
 });
 </pre>
+
+<img src="http://www.hollywoodreporter.com/sites/default/files/2012/12/img_logo_blue.jpg"></img>
