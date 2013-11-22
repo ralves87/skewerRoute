@@ -30,7 +30,7 @@ $(".skewerRoute").skewerRoute({
 });
 </pre>
 
-<h3>Configurações do mapa</h3>
+<h3>Temas</h3>
 <p>O nosso amigo <code>skewerRoute</code> possui alguns temas para você deixar o mapa mais atrente, veja o exemplo abaixo:</p>
 
 <pre>
@@ -50,3 +50,12 @@ $(".skewerRoute").skewerRoute({
 <li>Greyscale</li>
 <li>VitaminC</li>
 </ul>
+
+<h3>Definindo a rota</h3>
+<p>Para que definir a localização de distino, basta preencher com o endereço o parâmetro <code>route</code>.</p>
+
+<pre>
+$(".skewerRoute").skewerRoute({
+	route: "Campinas, SP"
+});
+</pre>
