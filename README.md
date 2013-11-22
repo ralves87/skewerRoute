@@ -1,5 +1,4 @@
 <h1>skewerRoute, crie rotas com geolocation!</h1>
-============================================
 
 <ul>
 <li>Copyright (C) 2013, <a href="https://github.com/ralves87">Rafael Alves</a></li>
@@ -9,7 +8,6 @@
 <p>Necessita do jQuery 1.9+</p>
 
 <h2>Como usar</h2>
-============================================
 
 <p>O <code>skewerRoute</code> tem a finalidade de criar rotas automáticas a partir da geolocalização. Tendo a possibilidade de alterar temas, adicionar novas rotas e customizar os markers, tudo isso de uma maneira bem simples.</p>
 
