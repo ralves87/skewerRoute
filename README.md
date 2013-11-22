@@ -65,8 +65,8 @@ $(".skewerRoute").skewerRoute({
 });
 </pre>
 
-<h3>Makers</h3>
-<p>O paramêtro <code>maker</code> é as imagens que representam o ponto incial e final. Os mesmos podem ser alterados através de imagens locais ou externas.</p>
+<h3>Marker</h3>
+<p>O paramêtro <code>marker</code> é as imagens que representam o ponto incial e final. Os mesmos podem ser alterados através de imagens locais ou externas.</p>
 
 <pre>
 $(".skewerRoute").skewerRoute({
