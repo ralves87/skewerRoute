@@ -16,7 +16,7 @@
 <p>Veja como é fácil configurar o mapa com o <code>skewerRoute</code>.</p>
 
 <pre>
-$(".skewerRoute").skewerRoute({
+$(<span class="s1">".skewerRoute"</span>).skewerRoute({
 	controls:{
 		navigate: false, 	//Habilita o controle de navegação do mapa.
 		zoom: false,		//Habilita o zoom.
