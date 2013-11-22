@@ -70,7 +70,7 @@ $(".skewerRoute").skewerRoute({
 	marker: {
 		pointA: "./path/pointA.png",	//Imagem para o ponto Geolocation.
 		pointB: "./path/pointB.png",	//Imagem para o ponto de Destino.
-		pointC: "./path/pointC.png"	//Imagem para o ponto de novas rotas.
+		pointC: "./path/pointC.png"		//Imagem para o ponto de novas rotas.
 	}
 });
 </pre>
