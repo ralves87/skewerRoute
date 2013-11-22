@@ -1,4 +1,4 @@
-<h1>skewerRoute, crie rotas com geolocation!</h1>
+<img src="http://s9.postimg.org/s1w74xo0v/logo.jpg" >
 
 <ul>
 <li>Copyright (C) 2013, <a href="https://github.com/ralves87">Rafael Alves</a></li>
