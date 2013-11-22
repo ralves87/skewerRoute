@@ -59,3 +59,28 @@ $(".skewerRoute").skewerRoute({
 	route: "Campinas, SP"
 });
 </pre>
+
+<h3>Makers</h3>
+<p>O paramêtro <code>maker</code> é as imagens que representam o ponto incial e final. Os mesmos podem ser alterados através de imagens locais ou externas.</p>
+
+<pre>
+$(".skewerRoute").skewerRoute({
+	marker: {
+		pointA: "../path/pointA.png",	//Imagem para o ponto Geolocation.
+		pointB: "../path/pointB.png",	//Imagem para o ponto de Destino.
+		pointC: "../path/pointC.png"	//Imagem para o ponto de novas rotas.
+	}
+});
+</pre>
+
+<h3>Novas rotas</h3>
+<p>O <code>newRoute</code> tem a função de exibir ao usuário a possibilidade de corrigir a sua localização ou então adicionar novos pontos de rota.</p>
+
+<pre>
+$(".skewerRoute").skewerRoute({
+	newRoute:{
+		active: true,	//Ativa a função
+		showTime: 1000	//Tempo para a alerta exibir.
+	}
+});
+</pre>
