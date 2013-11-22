@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>SkewerROUTE by ralves87</title>
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/ralves87/skewerRoute">View On GitHub</a></li>
+          <li class="downloads"><a href="https://github.com/ralves87/skewerRoute/zipball/master">ZIP</a></li>
+          <li class="downloads"><a href="https://github.com/ralves87/skewerRoute/tarball/master">TAR</a></li>
+          <li class="title">DOWNLOADS</li>
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <div id="title">
+          <h1>SkewerROUTE</h1>
+          <p>skewerRoute, crie rotas com geolocation.</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/ralves87">ralves87</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+
+        <p><img src="http://s9.postimg.org/s1w74xo0v/logo.jpg"></p>
+
+<h1></h1>
+
+<ul>
+<li>Copyright (C) 2013, <a href="https://github.com/ralves87">Rafael Alves</a>
+</li>
+<li>Versão atual: 1.0</li>
+</ul><p>Necessita do jQuery 1.9+</p>
+
+<h2>
+<a name="como-usar" class="anchor" href="#como-usar"><span class="octicon octicon-link"></span></a>Como usar</h2>
+
+<p>O <code>skewerRoute</code> tem a finalidade de criar rotas automáticas a partir da geolocalização. Tendo a possibilidade de alterar temas, adicionar novas rotas e customizar os markers, tudo isso de uma maneira bem simples.</p>
+
+<pre>$(".skewerRoute").skewerRoute();</pre>
+
+<p><code>Obs: Se você for testar local, utilize um servidor apache por exemplo.</code></p>
+
+<h3>
+<a name="configura%C3%A7%C3%B5es-do-mapa" class="anchor" href="#configura%C3%A7%C3%B5es-do-mapa"><span class="octicon octicon-link"></span></a>Configurações do mapa</h3>
+
+<p>Veja como é fácil configurar o mapa com o <code>skewerRoute</code>.</p>
+
+<pre>
+$(".skewerRoute").skewerRoute({
+    controls:{
+        navigate: false,    //Habilita o controle de navegação do mapa.
+        zoom: false,        //Habilita o zoom.
+        type: false,        //Habilita a opção de altarar o mapa para o modo satélite.
+        scale: false,       //Habilita a escala do mapa.
+        streetview: false,  //Habilita o streetview.
+        overview: false,    //Habilita a visão global.
+        scrollwheel: false  //Habilita zoom através do scroll do mouse.
+    }
+});
+</pre>
+
+<h3>
+<a name="temas" class="anchor" href="#temas"><span class="octicon octicon-link"></span></a>Temas</h3>
+
+<p>O nosso amigo <code>skewerRoute</code> possui alguns temas para você deixar o mapa mais atrente, veja o exemplo abaixo:</p>
+
+<pre>
+$(".skewerRoute").skewerRoute({
+    theme: "BlackAndWhite"
+});
+</pre>
+
+<p>Confira a lista atual de temas:</p>
+
+<ul>
+<li>BlackAndWhite</li>
+<li>PaleDawn</li>
+<li>Commander</li>
+<li>BlueWater</li>
+<li>BrightBubbly</li>
+<li>NeutralBlue</li>
+<li>Greyscale</li>
+<li>VitaminC</li>
+</ul><h3>
+<a name="definindo-a-rota" class="anchor" href="#definindo-a-rota"><span class="octicon octicon-link"></span></a>Definindo a rota</h3>
+
+<p>Para definir a localização do distino, basta preencher o parâmetro <code>route</code> com o endereço.</p>
+
+<pre>
+$(".skewerRoute").skewerRoute({
+    route: "Campinas, SP"
+});
+</pre>
+
+<h3>
+<a name="marker" class="anchor" href="#marker"><span class="octicon octicon-link"></span></a>Marker</h3>
+
+<p>O paramêtro <code>marker</code> é as imagens que representam o ponto incial e final. Os mesmos podem ser alterados através de imagens locais ou externas.</p>
+
+<pre>
+$(".skewerRoute").skewerRoute({
+    marker: {
+        pointA: "./path/pointA.png",    //Imagem para o ponto Geolocation.
+        pointB: "./path/pointB.png",    //Imagem para o ponto de Destino.
+        pointC: "./path/pointC.png"     //Imagem para o ponto de novas rotas.
+    }
+});
+</pre>
+
+<h3>
+<a name="novas-rotas" class="anchor" href="#novas-rotas"><span class="octicon octicon-link"></span></a>Novas rotas</h3>
+
+<p>O <code>newRoute</code> tem a função de exibir ao usuário a possibilidade de corrigir a sua localização ou então adicionar novos pontos de rota.</p>
+
+<pre>
+$(".skewerRoute").skewerRoute({
+    newRoute:{
+        active: true,   //Ativa a função
+        showTime: 1000  //Tempo para a alerta exibir.
+    }
+});
+</pre>
+
+<p><img src="http://s12.postimg.org/4xjyst6jx/newroute.jpg"></p>
+
+<h2>
+<a name="licen%C3%A7a" class="anchor" href="#licen%C3%A7a"><span class="octicon octicon-link"></span></a>Licença</h2>
+
+<p>Copyright (C) 2013 by <a href="https://github.com/ralves87">Rafael Alves</a></p>
+
+<p>A permissão é concedida , a título gratuito , a qualquer pessoa que obtenha uma cópia deste software e dos arquivos de documentação associados (o "Software") , para lidar com o Software sem restrição , incluindo, sem limitação, os direitos de usar, copiar, modificar, mesclar , publicar, distribuir , sublicenciar e / ou vender cópias do Software, e permitir que as pessoas a quem o Software é fornecido a fazê-lo , observadas as seguintes condições:</p>
+
+<p>O aviso de copyright acima e este aviso de permissão devem ser incluídos em todas as cópias ou partes substanciais do Software.</p>
+
+<p>O SOFTWARE É FORNECIDO "COMO ESTÁ" , SEM GARANTIA DE QUALQUER TIPO, EXPRESSA OU IMPLÍCITA, INCLUINDO , SEM LIMITAÇÃO, AS GARANTIAS DE COMERCIALIZAÇÃO, ADEQUAÇÃO A UM DETERMINADO FIM E NÃO VIOLAÇÃO. EM NENHUM CASO OS AUTORES OU DETENTORES DE DIREITOS AUTORAIS SERÁ RESPONSÁVEL POR QUALQUER RECLAMAÇÃO, DANOS OU OUTRA RESPONSABILIDADE, SEJA EM UMA AÇÃO DE CUMPRIMENTO DE CONTRATO OU DE OUTRA FORMA, DECORRENTES DE OU EM RELAÇÃO AO SOFTWARE OU O USO OU OUTRAS FUNÇÕES DO SOFTWARE.</p>
+
+<h2>
+<a name="agradecimentos" class="anchor" href="#agradecimentos"><span class="octicon octicon-link"></span></a>Agradecimentos</h2>
+
+<ul>
+<li><a href="https://github.com/raymonsanches">Ramon Sanches</a></li>
+<li><a href="https://github.com/DorianOliveira">Dorian Torres</a></li>
+</ul>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
