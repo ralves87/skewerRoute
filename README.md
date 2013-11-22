@@ -13,6 +13,7 @@
 
 <pre>$(".skewerRoute").skewerRoute();</pre>
 
+<h3>Configurações do mapa</h3>
 <p>Veja como é fácil configurar o mapa com o <code>skewerRoute</code>.</p>
 
 <pre>
@@ -29,6 +30,7 @@ $(".skewerRoute").skewerRoute({
 });
 </pre>
 
+<h3>Configurações do mapa</h3>
 <p>O nosso amigo <code>skewerRoute</code> possui alguns temas para você deixar o mapa mais atrente, veja o exemplo abaixo:</p>
 
 <pre>
