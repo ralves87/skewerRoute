@@ -15,6 +15,8 @@
 
 <pre>$(".skewerRoute").skewerRoute();</pre>
 
+<code>Obs: Se você for testar local, utilize um servidor apache por exemplo.</code>
+
 <h3>Configurações do mapa</h3>
 <p>Veja como é fácil configurar o mapa com o <code>skewerRoute</code>.</p>
 
