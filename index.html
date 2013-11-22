@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+	<script type="text/javascript"></script>
+    <title>skewerRoute - by Rafael Alves</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+    <script src="core/skewerRoute.js" type="text/javascript"></script>
+
+    <style type="text/css">
+    	*{margin:0; padding:0;}
+    	.myMap{width:100%;}
+    </style>
+
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$(".myMap").css("height", $(window).height());
+			$(".myMap").skewerRoute({
+				controls:{
+					navigate: false,
+					zoom: false,
+					type: false,
+					scale: false,
+					streetview: false,
+					overview: false,
+					scrollwheel: false
+				},
+				theme: "BlackAndWhite",
+				route: "Campinas, SP",
+				marker: {
+					pointA: "./path/pointA.png",
+					pointB: "./path/pointB.png",
+					pointC: "./path/pointC.png"
+				},
+				newRoute:{
+					active: true,
+					showTime: 1000
+				}
+			});
+		});
+	</script>
+
+
+</head>
+
+<body>
+	<div class="myMap"></div>
+</body>
+
+</html>
