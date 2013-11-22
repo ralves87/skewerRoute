@@ -52,7 +52,7 @@ $(".skewerRoute").skewerRoute({
 </ul>
 
 <h3>Definindo a rota</h3>
-<p>Para que definir a localização de distino, basta preencher com o endereço o parâmetro <code>route</code>.</p>
+<p>Para definir a localização de distino, basta preencher com o endereço o parâmetro <code>route</code>.</p>
 
 <pre>
 $(".skewerRoute").skewerRoute({
