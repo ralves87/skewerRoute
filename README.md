@@ -16,15 +16,15 @@
 <p>Com o <code>skewerRoute</code> você configura o mapa de uma maneira bem simples, como no exemplo:</p>
 
 <pre>
-	$(".skewerRoute").skewerRoute({
-		controls:{
-			navigate: false, 	//Habilita o controle de navegação do mapa.
-			zoom: false,		//Habilita o zoom.
-			type: false,		//Habilita a opção de altarar o mapa para o modo satélite.
-			scale: false,		//Habilita a escala do mapa.
-			streetview: false,	//Habilita o streetview.
-			overview: false,	//Habilita a visão global.
-			scrollwheel: false	//Habilita zoom através do scroll do mouse.
-		}
-	});
+$(".skewerRoute").skewerRoute({
+	controls:{
+		navigate: false, 	//Habilita o controle de navegação do mapa.
+		zoom: false,		//Habilita o zoom.
+		type: false,		//Habilita a opção de altarar o mapa para o modo satélite.
+		scale: false,		//Habilita a escala do mapa.
+		streetview: false,	//Habilita o streetview.
+		overview: false,	//Habilita a visão global.
+		scrollwheel: false	//Habilita zoom através do scroll do mouse.
+	}
+});
 </pre>
