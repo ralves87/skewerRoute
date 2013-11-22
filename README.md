@@ -28,3 +28,23 @@ $(".skewerRoute").skewerRoute({
 	}
 });
 </pre>
+
+<p>O nosso amigo <code>skewerRoute</code> possui alguns templates para você deixar o mapa mais atrente, veja o exemplo como é fácil alterar:</p>
+
+<pre>
+$(".skewerRoute").skewerRoute({
+	theme: "BlackAndWhite"
+});
+</pre>
+
+<p>Confira a lista atual de temas:</p>
+<ul>
+<li>BlackAndWhite</li>
+<li>PaleDawn</li>
+<li>Commander</li>
+<li>BlueWater</li>
+<li>BrightBubbly</li>
+<li>NeutralBlue</li>
+<li>Greyscale</li>
+<li>VitaminC</li>
+</ul>
