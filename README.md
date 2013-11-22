@@ -28,5 +28,3 @@ $(".skewerRoute").skewerRoute({
 	}
 });
 </pre>
-
-<img src="http://www.hollywoodreporter.com/sites/default/files/2012/12/img_logo_blue.jpg"></img>
