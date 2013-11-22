@@ -11,10 +11,10 @@
 
 <p>O <code>skewerRoute</code> tem a finalidade de criar rotas automáticas a partir da geolocalização. Tendo a possibilidade de alterar temas, adicionar novas rotas e customizar os markers, tudo isso de uma maneira bem simples.</p>
 
-<pre>
+<code>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
 <script src="core/skewerRoute.js" type="text/javascript"></script>
-</pre>
+</code>
 
 <pre>$(".skewerRoute").skewerRoute();</pre>
 
